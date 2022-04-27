@@ -11,9 +11,11 @@
         </div>
     </div>
     <div class="cards">
-        <div class="card">
-            <div class="card-logo"></div>
-            <div class="card-text"></div>
+        <div class="container">
+            <div class="card">
+                <div class="card-logo"></div>
+                <div class="card-text"></div>
+            </div>
         </div>
 
 
