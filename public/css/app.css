@@ -74,6 +74,11 @@ ul li {
   height: 80%;
   background-color: blue;
 }
+.cards .card .card-logo img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 .cards .card .card-text {
   height: 20%;
   background-color: red;

@@ -12,10 +12,17 @@
     </div>
     <div class="cards">
         <div class="container">
+            @foreach ($albums as $album)
             <div class="card">
-                <div class="card-logo"></div>
-                <div class="card-text"></div>
+                <div class="card-logo">
+                    <img src="{{$album['thumb']}}" alt="{{$album['title']}}">
+
+                </div>
+                <div class="card-text">
+                    <h3>{{$album['title']}}</h3>
+                </div>
             </div>
+            @endforeach
         </div>
 
 
