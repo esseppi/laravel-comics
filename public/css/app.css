@@ -1,0 +1,25 @@
+.top-header {
+  height: 25px;
+  background-color: blue;
+}
+
+ul li {
+  float: left;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 85%;
+  margin: auto;
+}
+
