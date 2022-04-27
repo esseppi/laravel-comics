@@ -14,7 +14,7 @@
 
 .top-header {
   height: 25px;
-  background-color: blue;
+  background-color: #0082F9;
 }
 
 .top {
@@ -57,31 +57,74 @@ ul li {
 .hero .hero-tag {
   line-height: 1.5rem;
   padding: 0.4rem;
-  background: blue;
+  background: #0082F9;
   color: white;
   position: absolute;
   bottom: -0.95rem;
 }
 
 .cards {
-  background-color: black;
+  justify-content: space-between;
+  background-color: #1C1C1C;
 }
-.cards .card {
+.cards .container {
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.cards .container .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 16.6666666667%;
   height: 250px;
   padding: 1rem;
 }
-.cards .card .card-logo {
+.cards .container .card .card-logo {
   height: 80%;
-  background-color: blue;
 }
-.cards .card .card-logo img {
+.cards .container .card .card-logo img {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-.cards .card .card-text {
+.cards .container .card .card-text {
+  white-space: normal;
+  font-size: smaller;
+  margin-top: 0.3rem;
+  color: white;
+  text-align: center;
   height: 20%;
-  background-color: red;
+}
+
+.bottomAdv {
+  padding: 1rem 0;
+  background-color: #0082F9;
+}
+.bottomAdv .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.bottomAdv .container .adv-content {
+  width: 20%;
+  padding: 1rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.bottomAdv .container .adv-content .adv-photo {
+  width: 20%;
+  margin-right: 0.5rem;
+}
+.bottomAdv .container .adv-content .adv-photo .adv-logo {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100%;
 }
 
 .container {

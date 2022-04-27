@@ -15,8 +15,11 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     $albums = config('comics');
+    $advItems = config('adv-items');
     $data = [
-        'albums' => $albums
+        'albums' => $albums,
+        'advItems' => $advItems
     ];
+
     return view('home', $data);
 })->name('home');
