@@ -1,13 +1,15 @@
 <header>
     <div class="top-header">
         <div class="container">
-            <h4>DC POWER VISA</h4>
-            <h4>ADDITIONAL DC SITES</h4>
+            <div class="top">
+                <h5>DC POWER VISA</h5>
+                <h5>ADDITIONAL DC SITES</h5>
+            </div>
         </div>
     </div>
     <nav class="navigator">
-        <div class="container row">
-            <div class="">
+        <div class="container row-header">
+            <div class="logo">
                 <img src="./images/dc-logo.png" alt="">
             </div>
 

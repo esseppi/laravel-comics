@@ -1,11 +1,36 @@
+$height-header : 80px;
+
+.logo{
+    padding: .4rem;
+    img {
+        height: 100%;
+    }
+    height: $height-header;
+}
 .top-header {
     height: 25px;
     background-color: blue;
+
 }
+.top {
+    height: 25px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    h5 {
+        color: white;
+        margin-left: 1rem;
+    }
+}
+
 ul li {
-    float: left;
+    padding: .2rem;
+    display: inline;
+    list-style: none;
 }
-.row {
+.row-header {
+    justify-content: space-between;
+    align-items: center;
     display: flex;
     flex-direction: row;
 }
