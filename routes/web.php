@@ -16,10 +16,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     $albums = config('comics');
     $advItems = config('adv-items');
+    $footerLists = config('footerLists');
+
     $data = [
         'albums' => $albums,
-        'advItems' => $advItems
+        'advItems' => $advItems,
+        'footerLists' => $footerLists
     ];
-
     return view('home', $data);
 })->name('home');

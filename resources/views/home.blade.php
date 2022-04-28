@@ -23,8 +23,6 @@
             </div>
             @endforeach
         </div>
-
-
     </div>
     <div class="bottomAdv">
         <div class="container">
@@ -37,10 +35,8 @@
                       {{$adv['text']}}
                   </h5>
             </div>
-
             @endforeach
         </div>
-
     </div>
 </div>   
 @endsection

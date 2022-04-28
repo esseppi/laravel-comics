@@ -1,9 +1,16 @@
 //
-@import '_reset';
-@import '_header';
-@import '_main';
+@import './partials/reset';
+@import './partials/header';
+@import './partials/footer';
+@import './partials/main';
 
 .container {
     width: 85%;
     margin: auto;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
 }
