@@ -1,4 +1,7 @@
 <header>
+    @php
+    $headerLinks = config('myArray.headerList');
+    @endphp
     <div class="top-header">
         <div class="container">
             <div class="top">
@@ -14,16 +17,11 @@
             </div>
 
             <ul class="menu-list">
-                <li><a href="#">CHARACTERS</a></li>
-                <li><a href="#">COMICS</a></li>
-                <li><a href="#">MOVIES</a></li>
-                <li><a href="#">TV</a></li>
-                <li><a href="#">GAMES</a></li>
-                <li><a href="#">COLLECTIBLES</a></li>
-                <li><a href="#">VIDEOS</a></li>
-                <li><a href="#">FANS</a></li>
-                <li><a href="#">NEWS</a></li>
-                <li><a href="#">SHOP</a></li>
+                @foreach ($headerLinks as $link)
+                <li><a href="{{$link['route']}}">
+                    {{$link['title']}}
+                </a></li>                    
+                @endforeach
             </ul>
 
             <div class="search">

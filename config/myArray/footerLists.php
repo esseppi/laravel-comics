@@ -2,7 +2,7 @@
 
 return [
     'FooterLists' =>
-    ['bho'],
+    ['Lists'],
     [
         'title' => 'DC COMICS',
         'links' => [

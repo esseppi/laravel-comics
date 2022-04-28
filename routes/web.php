@@ -14,14 +14,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    $albums = config('comics');
-    $advItems = config('adv-items');
-    $footerLists = config('footerLists');
+    $albums = config('myArray.comics');
+    $advItems = config('myArray.adv-items');
 
     $data = [
         'albums' => $albums,
         'advItems' => $advItems,
-        'footerLists' => $footerLists
     ];
     return view('home', $data);
 })->name('home');

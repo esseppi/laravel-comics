@@ -1,4 +1,7 @@
 <footer>
+    @php
+    $footerLists = config('myArray.footerLists')
+    @endphp
     <div class="topFooter">
         <div class="container">
             <div class="footerLeft">
