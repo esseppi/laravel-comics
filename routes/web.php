@@ -23,3 +23,7 @@ Route::get('/', function () {
     ];
     return view('home', $data);
 })->name('home');
+
+Route::get('/products/{id}', function ($id) {
+    return 'id prodotto' . $id;
+});

@@ -63,9 +63,11 @@ footer ul {
 }
 footer .topFooter {
   background-image: url("/images/footer-bg.jpg");
+  max-height: 500px;
 }
 footer .topFooter .container {
   display: flex;
+  align-items: center;
   overflow: hidden;
 }
 footer .bottomFooter {
@@ -111,7 +113,7 @@ footer .bottomFooter .social img {
 
 .footerRight {
   width: 50%;
-  height: 260px;
+  height: 300px;
   display: flex;
   justify-content: center;
 }
